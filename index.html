@@ -503,38 +503,41 @@
               <span class="subheading">O seu baggie</span>
               <h2 class="mb-4">Faça já a sua encomenda</h2>
             </div>
-            <form action="https://formspree.io/beggies@whitesmith.co" method="POST">
+            <form action="https://usebasin.com/f/00b469aad126" method="POST">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Nome</label>
-                    <input type="text" class="form-control" placeholder="O seu nome">
+                    <input name="name" type="text" class="form-control" placeholder="O seu nome">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Email</label>
-                    <input type="text" class="form-control" placeholder="O seu email">
+                    <input name="email" type="text" class="form-control" placeholder="O seu email">
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
                     <label for="">Morada</label>
-                    <input type="text" class="form-control" placeholder="A sua morada completa">
+                    <input name="address" type="text" class="form-control" placeholder="A sua morada completa">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Telefone</label>
-                    <input type="text" class="form-control" placeholder="Telefone">
+                    <input name="phone" type="text" class="form-control" placeholder="Telefone">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Hora preferencial</label>
-                    <input type="text" class="form-control" id="book_time" placeholder="Hora">
+                    <input name="hour" type="text" class="form-control" id="book_time" placeholder="Hora">
                   </div>
                 </div>
+
+                <input type="hidden" id="gotcha" name="_gotcha">
+
                 <div class="col-md-12 mt-3">
                   <div class="form-group">
                     <input type="submit" value="Encomendar" class="btn btn-primary py-3 px-5">
